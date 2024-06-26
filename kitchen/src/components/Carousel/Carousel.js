@@ -24,7 +24,6 @@ const Carousel = () => {
             const updatedSlide = {id, slideTitle, slideDescription, slideBg}
             return updatedSlide
         })
-
         setCarouselSlides(cleanSlides)
     }, [])
 
